@@ -1,0 +1,10 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react" // Transpile JSX for React (if using React)
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties", // Transpile class properties (if needed)
+    "@babel/plugin-transform-runtime" // Use Babel's runtime for async/await and generators
+  ]
+}
