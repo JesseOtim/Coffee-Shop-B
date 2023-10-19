@@ -1,6 +1,6 @@
-import UserModel from "../models/userModel";
+import UserModel from "../models/userModel.js";
 import bcrypt from "bcryptjs";
-import { createToken } from "../helpers/jwt";
+import { createToken } from "../helpers/jwt.js";
 
 class AuthController {
   /**
